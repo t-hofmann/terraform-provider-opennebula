@@ -48,9 +48,7 @@ resource "opennebula_virtual_network" "vnet" {
     dns = "172.16.100.1"
     gateway = "172.16.100.1"
     security_groups = [ 0 ]
-    clusters = [{
-        id = 0
-    }]
+    clusters = [ 0 ]
 }
 ```
 
